@@ -10,5 +10,5 @@ mongoose.connection.on("error", (err) => {
 });
 
 mongoose.connection.on("connected", (err, res) => {
-    console.log("mongoose connection succesfull");
+    console.log("mongodb is connected");
 });
